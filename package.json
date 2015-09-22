@@ -1,0 +1,36 @@
+{
+  "name": "npm-linked",
+  "version": "0.1.0",
+  "description": "find all npm linked packages",
+  "main": "index.js",
+  "bin": {
+    "npm-linked": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/npm-linked.git"
+  },
+  "keywords": [
+    "npm",
+    "link",
+    "find",
+    "symlink",
+    "symlinks",
+    "links",
+    "search",
+    "all",
+    "npm-linked"
+  ],
+  "author": "serapath <dev@serapath.de> (http://www.github.com/serapath)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/npm-linked/issues"
+  },
+  "homepage": "https://github.com/serapath/npm-linked#readme",
+  "dependencies": {
+    "shelljs": "^0.5.3"
+  }
+}
